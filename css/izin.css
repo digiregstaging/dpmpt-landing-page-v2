@@ -1,0 +1,659 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('/assets/backgrond.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #0056b3;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+  transition: .5s;
+}
+
+.header:hover::after{
+  left: 100%;
+}
+
+.google-map-section {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.goog-te-gadget img{
+  display:none !important;
+}
+body > .skiptranslate {
+  display: none;
+}
+body {
+  top: 0px !important;
+}
+
+.logo {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+#check {
+  display: none;
+}
+
+.icons {
+  position: absolute;
+  right: 5%;
+  font-size: 2.8rem;
+  color: #fff;
+  cursor: pointer; 
+  display: none;
+}
+
+.izin {
+    margin-top: auto;
+    position: relative; /* Set the container to a relative position */
+}
+
+.box-container {
+    position: absolute;
+    top: 50%;
+    margin-top: 150px;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box2 {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box3 {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box4 {
+    width: 300px;
+    height: 100px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.logo1 {
+    position: left;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    right: 0;
+    width: 80px;
+    height: 23px;
+}
+.logo2 {
+  position: left;
+  top: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  right: 0;
+  width: 40px;
+  height: 25px;
+}
+
+.visit-button {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: -15px;
+    top: 0;
+    right: 25px; /* Adjust the button's position */
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.box-content {
+    padding: 10px;
+    text-align: left;
+    margin-top: -20px;
+}
+
+.box-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: rgb(0, 47, 255);
+}
+
+.box-description {
+    margin-top: 5px;
+    font-size: 10px;
+    color: black;
+}
+
+/* izin */
+.blue-background {
+    background-color: rgb(2,79,167);
+    padding: 50px; /* Adjust margin to remove spacing */
+    text-align: center
+}
+
+.publikasi-button {
+    background-color: rgb(218,37,30);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 200px;
+    margin-left: 20%px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.line-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-line {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.klbi-section {
+    display: flex;
+    justify-content: space-between; /* Mengatur ruang di antara elemen-elemen */
+    align-items: center;
+    width: 85%; /* Menjamin agar flex items meregang sejauh mungkin */
+}
+
+.klbi-text {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 0; /* Mengatur margin atas dan bawah */
+}
+
+.download-logo img {
+    height: 20px;
+    margin-left: auto; /* Mendorong elemen ke ujung kanan */
+}
+
+.line-and-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.white-line1 {
+    width: 90%;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    padding: 1rem 1%;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .izin {
+    margin-top: auto;
+    position: relative; 
+  }
+ }
+
+ @media (max-width: 1346px) { 
+  .header {
+    padding: 1rem -1%;
+  }
+  .icons {
+    display: inline-flex;
+  }
+  .izin {
+    margin-top: auto;
+    position: relative; 
+  }
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+  
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+  #check:checked~.navbar {
+    height: auto;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    transition-delay: calc(.15s * var(--i));
+    opacity: 1;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  .publikasi-button {
+    background-color: rgb(218,37,30);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 470px;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.box-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1{
+        width: 300px;
+        height: 100px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+        margin-bottom: 40px;
+    }
+
+    .box2 {
+        width: 300px;
+        height: 100px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 200px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+
+    .box3 {
+        width: 300px;
+        height: 90px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 410px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+
+    .box4 {
+        width: 300px;
+        height: 90px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 610px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+  .icons {
+    display: inline-flex;
+  }
+
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+  #check:checked~.navbar {
+    height: auto;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    transition-delay: calc(.15s * var(--i));
+    opacity: 1;
+  }
+
+  .izin {
+    margin-top: 75px;
+    position: relative; /* Set the container to a relative position */
+    }
+
+    .box-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the container */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box1{
+        width: 300px;
+        height: 100px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+        margin-bottom: 40px;
+    }
+
+    .box2 {
+        width: 300px;
+        height: 100px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 200px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+
+    .box3 {
+        width: 300px;
+        height: 90px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 410px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+
+    .box4 {
+        width: 300px;
+        height: 90px;
+        background-color: #f0f0f0;
+        margin: 10px;
+        margin-left: 10px;
+        margin-top: 610px;
+        align-items: center;
+        border-radius: 10px;
+        position: fixed;
+    }
+
+    .logo1 {
+        position: left;
+        top: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+        right: 0;
+        width: 80px;
+        height: 23px;
+    }
+
+    .visit-button {
+        position: absolute;
+        margin-top: 20px;
+        margin-right: -15px;
+        top: 0;
+        right: 25px; /* Adjust the button's position */
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .box-content {
+        padding: 10px;
+        text-align: left;
+        margin-top: -20px;
+    }
+
+    .box-title {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 5px;
+        color: rgb(0, 47, 255);
+    }
+
+    .box-description {
+        margin-top: 5px;
+        font-size: 10px;
+        color: black;
+    }
+
+    .publikasi-button {
+        background-color: rgb(218,37,30);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        margin-top: 500px;
+        border-radius: 40px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .line-and-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -60px;
+        width: 140%;
+    }
+    
+    .white-line {
+        width: 90%;
+        height: 1px;
+        background-color: white;
+        margin: 10px 0;
+    }
+    
+    .klbi-section {
+        display: flex;
+        justify-content: space-between; /* Mengatur ruang di antara elemen-elemen */
+        align-items: center;
+        width: 85%; /* Menjamin agar flex items meregang sejauh mungkin */
+    }
+    
+    .klbi-text {
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+        margin: 5px 0; /* Mengatur margin atas dan bawah */
+    }
+    
+    .download-logo img {
+        height: 20px;
+        margin-left: auto; /* Mendorong elemen ke ujung kanan */
+    }
+    
+    .line-and-text1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -60px;
+        width: 140%;
+        align-items: center;
+    }
+    
+    .white-line1 {
+        width: 90%;
+        height: 1px;
+        background-color: white;
+        margin: 10px 0;
+    }
+    .logo {
+      margin-right: auto;
+    }
+}

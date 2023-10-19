@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 450px;
+    background: url('assets/balikpapan.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.google-map-section {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, .1);
+  backdrop-filter: blur(50px);
+  z-index: -1;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: -100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .4), transparent);
+  transition: .5s;
+}
+
+.header:hover::after{
+  left: 100%;
+}
+.google-map-section {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.goog-te-gadget img{
+  display:none !important;
+}
+body > .skiptranslate {
+  display: none;
+}
+body {
+  top: 0px !important;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a {
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+
+#check {
+  display: none;
+}
+
+.icons {
+  position: absolute;
+  right: 5%;
+  font-size: 2.8rem;
+  color: #fff;
+  cursor: pointer; 
+  display: none;
+}
+
+section#hero {
+  margin-top: 400px;
+  height: calc(100vh -60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+}
+
+#hero h1 {
+  position: absolute;
+  top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: 'Lumanosimo', serif;
+    font-weight: 500;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    color: #da251e;
+}
+.ikn {
+  position: absolute;
+  top: 1%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: 'Kaushan Script', serif;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    color: #da251e;
+}
+
+.visitor-box {
+  width: auto;
+  margin-top: 100px;
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.visitor-box1 {
+  width: auto;
+  margin-top: 100px;
+  background-color: rgb(255, 0, 0);
+  padding: 5px 10px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.blue-background {
+  background-color: rgb(2,79,167);
+  padding: 50px;
+  margin-top: 150px;
+  text-align: center
+}
+
+.blue-text1 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+  font-family: 'Adobe Garamond Pro', serif;
+  font-style: italic;
+}
+
+.image-row {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 5px 0;
+}
+
+.image-box {
+  margin: 5px 30px;
+  background-color: rgb(235, 234, 234);
+  width: 200px;
+  height: 205px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.image-box img {
+  max-width: 70%;
+  max-height: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.centered-text {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.centered-text p {
+  font-weight: bold;
+  color: blue;
+}
+
+.video-container {
+  text-align: center;
+  margin: 50px 0; 
+}
+
+.video-container iframe {
+  max-width: 100%;
+  height: 500px;
+}
+
+.map-container {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.map-background {
+  margin-bottom: -260px;
+}
+
+.map-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.map-heading {
+  font-size: 45px;
+  font-weight: bold;
+  color: blue;
+  margin: 0;
+}
+
+.map-subheading {
+  font-size: 12px;
+  margin: 10px 0;
+  color: rgb(0, 0, 0);
+}
+
+.red-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.map2-container {
+  width: 100%;
+  height: 150px;
+  /* Ganti properti lain yang diperlukan */
+}
+
+.map-container3 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.map-container3 iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.centered-text3 {
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.centered-text3 p {
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.scroll-to-top-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 1500px) {
+  .header {
+    padding: 1rem 1%;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  #hero h1 {
+    position: absolute;
+    top: -10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 90px;
+      font-family: 'Lumanosimo', serif;
+      font-weight: 500;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+  .ikn {
+    position: absolute;
+    top: 8%;
+      left: 50%;
+      font-weight: bold;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      font-family: 'Kaushan Script', serif;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+ }
+
+ @media (max-width: 1346px) { 
+  .header {
+    padding: 1rem -1%;
+  }
+  .icons {
+    display: inline-flex;
+  }
+
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+  #check:checked~.navbar {
+    height: auto;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    transition-delay: calc(.15s * var(--i));
+    opacity: 1;
+  }
+
+  #hero h1 {
+    position: absolute;
+    top: -10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 90px;
+      font-family: 'Lumanosimo', serif;
+      font-weight: 500;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+  .ikn {
+    position: absolute;
+    top: 10%;
+      left: 50%;
+      font-weight: bold;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      font-family: 'Kaushan Script', serif;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+  
+  .visitor-box {
+    width: auto;
+    margin-top: 100px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .visitor-box1 {
+    width: auto;
+    margin-top: 100px;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .logo {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .icons {
+    display: inline-flex;
+  }
+
+  #check:checked~.icons #menu-icon {
+    display: none;
+  }
+
+  .icons #close-icon {
+    display: none;
+  }
+
+  #check:checked~.icons #close-icon {
+    display: block;
+  }
+
+  .blue-background {
+    background-color: rgb(2,79,167);
+    padding: 50px;
+    margin-top: 60px;
+    text-align: center
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: .3s ease;
+  }
+
+  #check:checked~.navbar {
+    height: auto;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #check:checked~.navbar a {
+    transform: translateY(0);
+    transition-delay: calc(.15s * var(--i));
+    opacity: 1;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  #hero h1 {
+    position: absolute;
+    top: -18%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 70px;
+      font-family: 'Lumanosimo', serif;
+      font-weight: 500;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+  .ikn {
+    position: absolute;
+    top: 1%;
+      left: 50%;
+      font-weight: bold;
+      transform: translate(-50%, -50%);
+      font-size: 30px;
+      font-family: 'Kaushan Script', serif;
+      text-shadow: -1px 0 rgb(255, 255, 255), 0 5px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+      color: #da251e;
+  }
+  
+  .visitor-box {
+    width: auto;
+    margin-top: 100px;
+    background-color: rgba(255, 0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  .visitor-box1 {
+    width: auto;
+    background-color: rgb(255, 0, 0);
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+}
