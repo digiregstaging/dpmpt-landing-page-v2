@@ -28,7 +28,7 @@
             <a href="index.php" style="--i:0">Beranda</a>
             <a href="profil.php" style="--i:1">Profil&nbsp;Daerah</a>
             <a href="infrastruktur.php" style="--i:2">Infrastruktur</a>
-            <a href="investasi.php" style="--i:3">Potensi&nbsp;Investasi</a>
+            <a href="investasi.php" style="--i:3">Profil&nbsp;Investasi</a>
             <a href="peluang.php" style="--i:4">Peluang&nbsp;Investasi</a>
             <a href="izin.php" style="--i:5">Perizinan</a>
             <a href="gis.php" style="--i:5">Web GIS</a>
@@ -108,7 +108,7 @@
     </div>
     <div class="map-content">
         <p class="map-heading">PETA INVESTASI</p>
-        <p class="map-subheading">Peta sebaran potensi dan peluang investasi</p>
+        <p class="map-subheading">Peta sebaran Profil dan peluang investasi</p>
             <p class="map-subheading">Kota Balikpapan</p>
         <a href="gis.php" class="red-button" target="_blank">menuju</a>
     </div>

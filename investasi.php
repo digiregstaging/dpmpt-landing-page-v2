@@ -25,7 +25,7 @@
             <a href="index.php" style="--i:0">Beranda</a>
             <a href="profil.php" style="--i:1">Profil&nbsp;Daerah</a>
             <a href="infrastruktur.php" style="--i:2">Infrastruktur</a>
-            <a href="investasi.php" style="--i:3">Potensi&nbsp;Investasi</a>
+            <a href="investasi.php" style="--i:3">Profil&nbsp;Investasi</a>
             <a href="peluang.php" style="--i:4">Peluang&nbsp;Investasi</a>
             <a href="izin.php" style="--i:5">Perizinan</a>
             <a href="gis.php" style="--i:5">Web GIS</a>
@@ -38,7 +38,7 @@
         </nav>
     </header>
     <div class="center-content">
-        <h1 class="pariwisata-title">Potensi Investasi</h1>
+        <h1 class="pariwisata-title">Profil Investasi</h1>
         <div class="logos">
             <div class="logo-container">
                 <div class="logo-circle">

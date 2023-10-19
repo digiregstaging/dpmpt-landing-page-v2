@@ -48,7 +48,7 @@
         <a href="index.php" style="--i:0">Beranda</a>
             <a href="profil.php" style="--i:1">Profil&nbsp;Daerah</a>
             <a href="infrastruktur.php" style="--i:2">Infrastruktur</a>
-            <a href="investasi.php" style="--i:3">Potensi&nbsp;Investasi</a>
+            <a href="investasi.php" style="--i:3">Profil&nbsp;Investasi</a>
             <a href="peluang.php" style="--i:4">Peluang&nbsp;Investasi</a>
             <a href="izin.php" style="--i:5">Perizinan</a>
             <a href="gis.php" style="--i:5">Web GIS</a>
@@ -136,7 +136,7 @@
                     </tr>
                      <tr>
                         <th></th>
-                        <td>203,439 Ha</td>
+                        <td>203,439 Km dengan melewati kawasan konservasi seluas 458 Ha</td>
                     </tr>
                     <tr>
                     <tr>
@@ -333,7 +333,7 @@
                     </tr>
                      <tr>
                         <th></th>
-                        <td>9 km dari Bandara Sepinggan</td>
+                        <td>9 Km dari Bandara Sepinggan</td>
                     </tr>
                     <tr>
                 </table>
@@ -420,28 +420,12 @@
                             <td>Bandara Sultan Aji Muhammad Sulaiman, Pelabuhan Semayang</td
                         </tr>
                         <tr>
-                            <th><b>Batas Waktu Proyek :</b> </th>
-                            <td>2014-2015: Lelang Investasi 29 Sep</td
+                            <th><b>Skema Bisnis :</b></th>
+                            <td> Terdapat 7 Segmen, Segmen II milik Pemerintah Kota Balikpapan</td
                         </tr>
                         <tr>
-                            <th><b>Skema Bisnis</b></th>
-                            <td></td
-                        </tr>
-                        <tr>
-                            <th><b>Segmen I : </b></th>
-                            <td>PT. Sugico Graha</td
-                        </tr>
-                        <tr>
-                            <th><b>Segmen II : </b></th>
-                            <td>Pemkot Balikpapan</td
-                        </tr>
-                        <tr>
-                            <th><b>Segmen III : </b></th>
-                            <td>PT. Pandega Citra Niaga</td
-                        </tr>
-                        <tr>
-                            <th><b>Segmen IV : </b></th>
-                            <td>PT. Helindo Bangun Raya</td
+                            <th><b>Status Proyek : </b></th>
+                            <td>Proses Kelengkapan Perizinan</td
                         </tr>
                         </table>
                         
@@ -502,8 +486,8 @@
                             <td>Sangata-Bontang-Samarinda-Balikpapan</td>
                         </tr>
                         <tr>
-                            <th><b>Panjang Ruas :</b></th>
-                            <td>203,439 km</td
+                            <th><b>Total Panjang Rel :</b></th>
+                            <td>3.556,5 Km</td
                         </tr>
                         <tr>
                             <th><b>Estimasi Nilai Investasi :</b> </th>
@@ -514,10 +498,6 @@
                             <td>Pra Studi Kelayakan Pengembangan Jaringan Kereta Api 2015</td
                         </tr>
                         <tr>
-                            <th><b>Batas Waktu Proyek :</b> </th>
-                            <td>Total rel yang dibangun 3.556,5 km</td
-                        </tr>
-                        <tr>
                             <th><b>Skema Bisnis</b></th>
                             <td>Alternatif yang memungkinkan dimasukkannya dana swasta adalah melalui mekanisme pembagian biaya.
                     Biaya investasi infrastruktur akan dibagi antara Pemerintah dan sektor swasta</td
@@ -526,7 +506,10 @@
                 tombolSelengkapnya.textContent = "Close";
                 tombolStatus = "Close";
             } else {
-                elemenInformasi.innerHTML = `Kawasan sepanjang jalan Jendral Sudirman ini, di prediksi akan menjadi kawasan bisnis yang paling menjanjikan dalam lima tahun ke depan. Balikpapan tengah bersiap menjadi waterfront city pertama di Kalimantan.#Infrastruktur`;
+                elemenInformasi.innerHTML = `Pembangunan Jaringan Kereta Api Balikpapan - Samarinda - Bontang -
+                Sangata di provinsi Kalimantan Timur diharapkan menjadi tulang punggung
+                angkutan barang dan penumpang perkotaan, sehingga dapat menjadi salah
+                satu aspek pendorong utama perekonomian di Provinsi Kalimantan Timur. <i style="color: rgb(255, 92, 0);">#Infrastruktur`;
                 tombolSelengkapnya.textContent = "Selengkapnya";
                 tombolStatus = "Selengkapnya";
             }
@@ -563,22 +546,23 @@
                             <td>1,5 liter/detik</td
                         </tr>
                         <tr>
-                            <th><b>SKapasitas :</b> </th>
+                            <th><b>Kapasitas :</b> </th>
                             <td>hingga 720.000 ton MSW5</td
                         </tr>
                         <tr>
-                            <th><b>Batas Waktu Proyek :</b> </th>
-                            <td>Total rel yang dibangun 3.556,5 km</td
+                            <th><b>Pencapaian</b></th>
+                            <td>7 Tempat Pengelolaan MSW ini mengelola sekitar 200-400 rumah tangga dalam satu proses. Sampah diolah dengan cara dipilah dan sampah organik diubah menjadi kompos sedangkan sisanya dibuang ke TPA Manggar.</td>
                         </tr>
                         <tr>
-                            <th><b>Pencapaian</b></th>
-                            <td>7 Tempat Pengelolaan MSW ini mengelola sekitar 200-400 rumah tangga dalam satu proses. Sampah diolah dengan cara dipilah dan sampah organik diubah menjadi kompos sedangkan sisanya dibuang ke TPA Manggar.</td
+                            <th><b>Penghargaan :</b> </th>
+                            <td>IPRO (Investment Project Ready to Offer) Award</td
+                        </tr>
                         </table>
                 `;
                 tombolSelengkapnya.textContent = "Close";
                 tombolStatus = "Close";
             } else {
-                elemenInformasi.innerHTML = `Kawasan sepanjang jalan Jendral Sudirman ini, di prediksi akan menjadi kawasan bisnis yang paling menjanjikan dalam lima tahun ke depan. Balikpapan tengah bersiap menjadi waterfront city pertama di Kalimantan.#Infrastruktur`;
+                elemenInformasi.innerHTML = `Produksi sampah di Balikpapan mencapai 450 ton/hari diman 85%nya dibuang ke TPA Sampah Manggar. Kota Balikpapan diusulkan menjadi model kota waste to energy di luar 12 kota di Indonesia dengan skema KPBU unsolicited sehingga dapat memperlancar urusan jual beli listrik kepada PLN. <i style="color: rgb(240,151,6);">#Industri`;
                 tombolSelengkapnya.textContent = "Selengkapnya";
                 tombolStatus = "Selengkapnya";
             }
@@ -643,14 +627,14 @@
                         </tr>
                         <tr>
                             <th><b>Estimasi Nilai Investasi :</b> </th>
-                            <td>peti kemas - Rp. 713 Miliark</td
+                            <td>peti kemas - Rp. 713 Miliar</td
                         </tr></table>
                     
                 `;
                 tombolSelengkapnya.textContent = "Close";
                 tombolStatus = "Close";
             } else {
-                elemenInformasi.innerHTML = `Kawasan sepanjang jalan Jendral Sudirman ini, di prediksi akan menjadi kawasan bisnis yang paling menjanjikan dalam lima tahun ke depan. Balikpapan tengah bersiap menjadi waterfront city pertama di Kalimantan.#Infrastruktur`;
+                elemenInformasi.innerHTML = `Kawasan Industri Kariangau dibangun untuk mengakomodir pembangunan industri kimia, batubara, pengolahan kayu, pengeboran minyak, pupuk dan aneka industri lainnya. Hingga saat ini tercatat ada sekitar 20 pabrik yang sudah mengantongi izin membuat pabrik, dimana 13 diantaranya sudah beroperasi menyerap sekitar 4.000 tenaga kerja. <i style="color: rgb(240,151,6);">#Industri`;
                 tombolSelengkapnya.textContent = "Selengkapnya";
                 tombolStatus = "Selengkapnya";
             }
@@ -702,7 +686,7 @@
                 tombolSelengkapnya.textContent = "Close";
                 tombolStatus = "Close";
             } else {
-                elemenInformasi.innerHTML = `Kawasan sepanjang jalan Jendral Sudirman ini, di prediksi akan menjadi kawasan bisnis yang paling menjanjikan dalam lima tahun ke depan. Balikpapan tengah bersiap menjadi waterfront city pertama di Kalimantan.#Infrastruktur`;
+                elemenInformasi.innerHTML = `Konstruksi dan pengolaan Depo Kontainer mendukung pengoperasian terminal kontainer di Pelabuhan Laut. Paket proyek ini mencakup pembangunan jalan sepanjang 1 Km yang menghubungkan Depo dengan Pelabuhan. <i style="color: rgb(240,151,6);">#Industri`;
                 tombolSelengkapnya.textContent = "Selengkapnya";
                 tombolStatus = "Selengkapnya";
             }
@@ -731,7 +715,7 @@
                         </tr>
                         <tr>
                             <th><b>Aksesibilitas :</b></th>
-                            <td>9 km dari Bandara Sepinggan</td
+                            <td>9 Km dari Bandara Sepinggan</td
                         </tr>
                         <tr>
                             <th><b>Lebar Pantai :</b> </th>
@@ -750,7 +734,7 @@
             tombolSelengkapnya.textContent = "Close";
             tombolStatus = "Close";
         } else {
-            elemenInformasi.innerHTML = `Kawasan sepanjang jalan Jendral Sudirman ini, di prediksi akan menjadi kawasan bisnis yang paling menjanjikan dalam lima tahun ke depan. Balikpapan tengah bersiap menjadi waterfront city pertama di Kalimantan.#Infrastruktur`;
+            elemenInformasi.innerHTML = `Pantai manggar memiliki karateristik yang berbeda dengan pantai – pantai di pulau jawa atau bali. Perbedaaan manggar paling mencolok adalah keberadaaan pohon cemara di sepanjang pesisir. Manggar tidak hanya di kunjungi warga di kota ini , Masyarakat dari kabupaten dan kota – kota sekitar. <i style="color: rgb(40,117,4);">#Pariwisata`;
             tombolSelengkapnya.textContent = "Selengkapnya";
             tombolStatus = "Selengkapnya";
         }
