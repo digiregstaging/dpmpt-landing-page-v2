@@ -555,7 +555,11 @@
                         </tr>
                         <tr>
                             <th><b>Penghargaan :</b> </th>
-                            <td>IPRO (Investment Project Ready to Offer) Award</td
+                            <td>1. IPRO (Investment Project Ready to Offer) Award</td
+                        </tr>
+                        <tr>
+                            <th><b></b> </th>
+                            <td>2. Best of The Best E2S Proving League 2022 persama Pertamina Hulu Mahakam (PHM) melalui Program Wasteco (Waste to Energy for Community)</td
                         </tr>
                         </table>
                 `;
@@ -591,7 +595,7 @@
                     <table border="0">
                         <tr>
                             <th>1</th>
-                            <td>Pasokan listrik dengan kapasitas 350 Megawatt dari PT .PLN dan PT Kaiangau  Power.</td>
+                            <td>Pasokan listrik dengan kapasitas 350 Megawatt dari PT .PLN dan PT Kariangau  Power.</td>
                         </tr>
                         <tr>
                             <th>2</th>
@@ -603,7 +607,7 @@
                         </tr>
                         <tr>
                             <th>4</th>
-                            <td>Hidaran pemadam kebakaran di tempatkan pada tempat tertentu.</td>
+                            <td>Hidran pemadam kebakaran di tempatkan pada tempat tertentu.</td>
                         </tr>
                         <tr>
                             <th>5</th>
@@ -612,6 +616,54 @@
                         <tr>
                             <th>6</th>
                             <td>Perlindungan terhadap petir menggunakan sisterm eletronik.</td>
+                        </tr>
+                        <tr>
+                            <th>7</th>
+                            <td>Pelabuhan Peti Kemas dengan fasilitas</td>
+                            <table border="1" style="text-align: center; width: 555px;">
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama Fasilitas</th>
+                                    <th>Keterangan</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Alur Pelayaran</td>
+                                    <td>Panjang alur : 15 mile
+                                    <br>Lebar alur : 600 M
+                                    <br>Kedalaman alur : 13 M</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Dermaga</td>
+                                    <td>Panjang : 270 M
+                                    <br>Lebar : 30 M</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Trestle</td>
+                                    <td>Panjang : 282 M
+                                    <br>Lebar : 10,5 M</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Jenis Kapal yang dilayani</td>
+                                    <td>Kapal Niaga/Cargo
+                                    <br>Kontainer</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Ukuran Kapal yang dilayani</td>
+                                    <td>s.d 35.000 DWT</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Kolam Pelabuhan</td>
+                                    <td>Luas Kolam : 10 Hektar
+                                    <br>Kedalaman Kolam Min : 20 M
+                                    <br>Kedalaman Sisi Dermaga : 14 M</td>
+                                </tr>
+                            </table>
                         </tr>
                     </table>
                     <br>
@@ -626,9 +678,10 @@
                             <td>3.565 Ha</td
                         </tr>
                         <tr>
-                            <th><b>Estimasi Nilai Investasi :</b> </th>
+                            <th><b>Estimasi Nilai Investasi:</b> </th>
                             <td>peti kemas - Rp. 713 Miliar</td
-                        </tr></table>
+                        </tr>
+                    </table>
                     
                 `;
                 tombolSelengkapnya.textContent = "Close";

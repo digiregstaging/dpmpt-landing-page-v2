@@ -49,7 +49,7 @@
     </div>
 
     <div class="icon-container">
-        <div class="icon" data-image="assets/daerah/infrastruktur.jpg" data-judul="INFRASTRUKTUR" data-description="Balikpapan sebagai pintu gerbang Kalimantan Timur memerlukan jalan sebagai prasarana penunjang
+        <div class="icon" data-image="assets/daerah/infrastruktur/infrastruktur1.jpg" data-judul="INFRASTRUKTUR" data-description="Balikpapan sebagai pintu gerbang Kalimantan Timur memerlukan jalan sebagai prasarana penunjang
         pengangkutan yang penting untuk memperlancar kegiatan perekonomian. Meningkatnya pembangunan
         umumnya harus disertai dengan peningkatan pembangunan jalan guna memudahkan mobilitas penduduk dan
         memperlancar lalu lintas barang dari satu daerah ke daerah lain. Panjang jalan negara di Kota Balikpapan pada
@@ -67,7 +67,7 @@
             <span class="icon-label">Infrastruktur</span>
         </div>
 
-        <div class="icon" data-image="assets/daerah/penduduk.jpg" data-description="a. Kependudukan
+        <div class="icon" data-image="assets/daerah/penduduk/penduduk1.jpg" data-description="a. Kependudukan
         Kota Balikpapan merupakan kota di Kalimantan Timur dengan jumlah penduduk terbesar ketiga setelah Kota Samarinda dan Kabupaten
         Kutai Kartanegara. Jumlah penduduk Kota Balikpapan berdasarkan proyeksi penduduk tahun 2022 sebanyak 703.611 jiwa. Dari jumlah
         tersebut, 359.563 jiwa berjenis kelamin laki-laki dan 344.048 jiwa berjenis kelamin perempuan. Kecamatan Balikpapan Utara memiliki
@@ -94,7 +94,7 @@
             <span class="icon-label">Penduduk&Ketenagakerjaan</span>
         </div>
 
-        <div class="icon" data-image="assets/daerah/kesehatan.png" align="justify" data-description="Tersedianya fasilitas kesehatan yang baik, murah, dan terjangkau oleh semua kalangan adalah salah satu tolak ukur keberhasilan pembangunan di
+        <div class="icon" data-image="assets/daerah/kesehatan/kesehatan1.png" align="justify" data-description="Tersedianya fasilitas kesehatan yang baik, murah, dan terjangkau oleh semua kalangan adalah salah satu tolak ukur keberhasilan pembangunan di
         bidang kesehatan. Lebih jauh, hal ini menjadi prasyarat tercapainya masyarakat yang sejahtera. Untuk mencapai hal tersebut pemerintah kota
         terus berusaha meningkatkan kualitas pelayanan kesehatan. Keberadaan rumah sakit di Kota Balikpapan terus ditopang dengan sarana kesehatan
         yang sudah lazim dikenal masyarakat, yaitu puskesmas dan puskesmas pembantu. Tercatat pada tahun 2022, di Kota Balikpapan terdapat 11
@@ -104,7 +104,7 @@
             <span class="icon-label">Kesehatan</span>
         </div>
 
-        <div class="icon" data-image="assets/daerah/pendidikan.jpg" data-description="Salah satu faktor yang menentukan keberhasilan pembangunan adalah tersedianya sumber daya manusia (SDM) yang berkualitas. Ketersediaan
+        <div class="icon" data-image="assets/daerah/pendidikan/pendidikan1.jpg" data-description="Salah satu faktor yang menentukan keberhasilan pembangunan adalah tersedianya sumber daya manusia (SDM) yang berkualitas. Ketersediaan
         sarana dan prasarana pendidikan dapat menjadi salah satu tolak ukur dalam melihat kesungguhan pemerintah dalam upaya peningkatan SDM.
         Kota Balikpapan, pada tahun 2022, tercatat telah memiliki 153 Sekolah Taman Kanak-Kanak 182 sekolah dasar sederajat, 77 sekolah menengah
         pertama sederajat, 28 sekolah menengah atas sederajat dan 32 Sekolah Menengah Kejuruan. Hal ini menunjukkan tidak ada peningkatan jumlah
@@ -115,7 +115,7 @@
             <span class="icon-label">Pendidikan</span>
         </div>
 
-        <div class="icon" data-image="assets/daerah/pariwisata.jpg" data-description="Kota Balikpapan sebagai kota yang dikelilingi laut memiliki pariwisata yang didominasi oleh pantai. Beberapa pantai yang terkenal diantaranya
+        <div class="icon" data-image="assets/daerah/pariwisata/pariwisata1.jpg" data-description="Kota Balikpapan sebagai kota yang dikelilingi laut memiliki pariwisata yang didominasi oleh pantai. Beberapa pantai yang terkenal diantaranya
         adalah Pantai Manggar, Pantai Lemaru, Pantai Kemala, dan Pantai Melawai. Di daerah pesisir yang ditumbuhi tanaman bakau juga terdapat
         wisata mangrove, seperti Mangrove Center di Graha Indah, Hutan Mangrove di Margo Mulyo, dan Jembatan Ulin di Kariangau. Bagi yang
         menginginkan wisata berbasis fauna, bisa mengunjungi Penangkaran Buaya di Teritip dan Agro Wisata KM 23 (Beruang Madu).
@@ -352,6 +352,94 @@
         }
 
         document.getElementById("scrollToTopBtn").addEventListener("click", scrollToTop);
+    </script>
+
+    <script>
+        const imageContainer = document.querySelector(".content-image");
+        
+        const infrastrukturImages = [
+            "assets/daerah/infrastruktur/infrastruktur1.jpg",
+            "assets/daerah/infrastruktur/infrastruktur2.jpg",
+            "assets/daerah/infrastruktur/infrastruktur3.jpg",
+            "assets/daerah/infrastruktur/infrastruktur4.jpg"
+        ];
+
+        const pendudukImages = [
+            "assets/daerah/penduduk/penduduk1.jpg",
+            "assets/daerah/penduduk/penduduk2.jpeg",
+            "assets/daerah/penduduk/penduduk3.jpg",
+            "assets/daerah/penduduk/penduduk4.jpg",
+            "assets/daerah/penduduk/penduduk5.jpg",
+            "assets/daerah/penduduk/penduduk6.jpeg"
+        ];
+
+        const kesehatanImages = [
+            "assets/daerah/kesehatan/kesehatan1.png",
+            "assets/daerah/kesehatan/kesehatan2.jpg",
+            "assets/daerah/kesehatan/kesehatan3.jpg",
+            "assets/daerah/kesehatan/kesehatan4.jpg"
+        ];
+
+        const pendidikanImages = [
+            "assets/daerah/pendidikan/pendidikan1.jpg",
+            "assets/daerah/pendidikan/pendidikan2.jpg",
+            "assets/daerah/pendidikan/pendidikan3.jpg",
+            "assets/daerah/pendidikan/pendidikan4.jpg"
+        ];
+
+        const pariwisataImages = [
+            "assets/daerah/pariwisata/pariwisata1.jpg",
+            "assets/daerah/pariwisata/pariwisata2.jpg",
+            "assets/daerah/pariwisata/pariwisata3.jpeg",
+            "assets/daerah/pariwisata/pariwisata4.jpg"
+        ];
+
+        let currentImages = infrastrukturImages; // Default to infrastruktur images
+        let currentIndex = 0;
+
+        function changeImage() {
+            currentIndex = (currentIndex + 1) % currentImages.length;
+            const imageUrl = currentImages[currentIndex];
+            contentImage.src = imageUrl;
+        }
+
+        const imageChangeInterval = setInterval(changeImage, 3000);
+
+        contentImage.addEventListener("click", () => {
+            clearInterval(imageChangeInterval);
+        });
+
+        const pendudukIcon = document.querySelector('[alt="Penduduk & Ketenagakerjaan"]');
+        pendudukIcon.addEventListener("click", () => {
+            currentImages = pendudukImages; // Change to penduduk images
+            currentIndex = 0; // Reset the index
+            const imageUrl = currentImages[currentIndex];
+            contentImage.src = imageUrl;
+        });
+
+        const kesehatanIcon = document.querySelector('[alt="Kesehatan"]');
+        kesehatanIcon.addEventListener("click", () => {
+            currentImages = kesehatanImages; // Change to penduduk images
+            currentIndex = 0; // Reset the index
+            const imageUrl = currentImages[currentIndex];
+            contentImage.src = imageUrl;
+        });
+
+        const pendidikanIcon = document.querySelector('[alt="Pendidikan"]');
+        pendidikanIcon.addEventListener("click", () => {
+            currentImages = pendidikanImages; // Change to penduduk images
+            currentIndex = 0; // Reset the index
+            const imageUrl = currentImages[currentIndex];
+            contentImage.src = imageUrl;
+        });
+
+        const pariwisataIcon = document.querySelector('[alt="Pariwisata"]');
+        pariwisataIcon.addEventListener("click", () => {
+            currentImages = pariwisataImages; // Change to penduduk images
+            currentIndex = 0; // Reset the index
+            const imageUrl = currentImages[currentIndex];
+            contentImage.src = imageUrl;
+        });
     </script>
 </body>
 </html>
